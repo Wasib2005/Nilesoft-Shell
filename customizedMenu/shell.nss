@@ -20,6 +20,15 @@
 		item(title='Program files' cmd=sys.prog())
 	}
 }
+menu( title="Power" image=\uE12F)
+	{
+	item(title="Lock" image=\uE023 cmd='C:\Program Files\Nilesoft Shell\imports\Power\lock.exe.lnk')
+	item(title="Sleep" image=\uE11C cmd='C:\Program Files\Nilesoft Shell\imports\Power\sleep.exe.lnk')
+	item(title="Shutdown" image=\uE12F cmd='C:\Program Files\Nilesoft Shell\imports\Power\shutdown.exe.lnk')
+	item(title="Restart" image=\uE1A9 cmd='C:\Program Files\Nilesoft Shell\imports\Power\restart.exe.lnk')
+
+	}
+
 
 settings
 {
